@@ -1,0 +1,161 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+
+.container {
+    background-image: url('lilac.jpg');
+    height: 100vh;
+    width: 100%;
+    background-position: center;
+    background-size: cover;
+}
+
+.header {
+    height: 30vh;
+    display: flex;
+    align-items: center;
+
+}
+
+.logo {
+    width: 130px;
+    margin-top: 30px;
+    margin-left: 75px;
+    cursor: pointer;
+}
+
+nav {
+    flex: 1;
+    padding-left: 200px;
+}
+
+nav ul li {
+    display: inline-block;
+    list-style: none;
+    margin: 0 10px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: rgb(49, 9, 41);
+    font-family: sans-serif;
+    text-transform: uppercase;
+    font-weight: 800;
+}
+
+.btn1 {
+    text-transform: uppercase;
+    border-radius: 26px;
+    border: 1px solid rgb(28, 2, 26);
+    color: violet;
+    background: linear-gradient(to bottom, purple 3%, rgb(63, 9, 63) 100%);
+    padding: 12px 20px;
+    margin: 20px;
+    font-weight: 800;
+    cursor: pointer;
+
+}
+
+.btn2 {
+    text-transform: uppercase;
+    border-radius: 26px;
+    border: 1px solid rgb(28, 2, 24);
+    color: violet;
+    background: linear-gradient(to bottom, purple 3%, rgb(63, 9, 63) 100%);
+    padding: 12px 20px;
+    margin: 20px;
+    font-weight: 800;
+    cursor: pointer;
+
+}
+
+.btn1:hover {
+
+    transform: scale(1.2);
+    background: linear-gradient(to bottom, rgb(63, 9, 63) 3%, purple 100%);
+    ;
+}
+
+.btn2:hover {
+
+    transform: scale(1.2);
+    background: linear-gradient(to bottom, rgb(63, 9, 63) 3%, purple 100%);
+    ;
+}
+
+.content {
+
+    display: flex;
+    width: 100%;
+    align-items: center;
+    position: relative;
+}
+
+.content .bigtext h2 {
+
+    max-width: 600px;
+    text-transform: uppercase;
+    margin-left: 75px;
+    margin-top: 150px;
+    font-size: 25px;
+    text-shadow: 0px 3px 0px rgb(228, 157, 214);
+
+}
+
+.content .bigtext h3 {
+    
+    font-size: 20px;
+    color: rgb(224, 35, 158);
+    margin-left: 75px;
+    font-weight: 200;
+    text-shadow: 2px 2px 2px rgb(49, 9, 41);
+    letter-spacing: 0.1em;
+
+}
+
+.btnbig {
+
+    text-transform: uppercase;
+    border-radius: 26px;
+    border: 2px solid rgba(236, 51, 180, 0.8);
+    color: white;
+    background: linear-gradient(to bottom, #07000576 3%, #e0c5d7 100%);
+    /* padding-top: 12px;
+    padding-left:20px;
+    padding-bottom: 12px;
+    padding-right: 20px; */
+    padding: 12px 20px;
+    margin: 50px 50px 0px 75px;
+    font-weight: 800;
+    font-size: 20px;
+    cursor: pointer;
+
+}
+.btnbig:hover{
+    background: linear-gradient(to bottom, #8b8088 3%, #89727f76 100%);
+}
+
+.academy{
+    display: flex;
+   /* border: 1px solid red; */
+   margin-left: 190px;
+   
+}
+
+.academy img{
+    border: 5px solid rgba(255, 0, 0, 0);
+    border-radius: 50px;
+}
+
+.academy iframe{
+    border: 5px solid rgba(200, 56, 239, 0.105);
+    border-radius: 50px;
+    
+}
+
+.paragraph{
+    margin:200px 400px 0px 400px;
+    background-color: rgb(244, 181, 226);
+}
